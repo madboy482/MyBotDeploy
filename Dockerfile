@@ -1,8 +1,8 @@
-FROM sandy1709/catuserbot:alpine
+FROM madboy482/MyBot:alpine
 
-#clonning repo 
-RUN git clone https://github.com/sandy1709/catuserbot.git /root/userbot
-#working directory 
+# clonning repo 
+RUN git clone https://github.com/madboy482/MyBot.git /root/userbot
+# working directory 
 WORKDIR /root/userbot
 
 # Install requirements
