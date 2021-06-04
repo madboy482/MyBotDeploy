@@ -1,7 +1,7 @@
-FROM madboy482/mybot:alpine
+FROM madboy482/MyBot:alpine
 
 # clonning repo 
-RUN git clone https://github.com/madboy482/mybot.git /root/userbot
+RUN git clone https://github.com/madboy482/MyBot.git /root/userbot
 # working directory 
 WORKDIR /root/userbot
 
